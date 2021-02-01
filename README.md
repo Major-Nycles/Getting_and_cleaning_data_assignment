@@ -15,7 +15,10 @@ Leek's course assignment on Getting and Cleaning Data. Along with this README, t
   + Groups the data by Subject and Activity and obtains a mean for each variable.
   + Creates and outputs the Final Table as a deliverable.
 2. **CodeBook.md**
+  + Describes the origin and nature of the original data set.
+  + Describes the selection of variables from the original data.
+  + Describes the rational behind changing the names of certain variables.
 3. **FinalTable**
-  + FinalTable.txt is contains a 180 x 88 data table.
+  + FinalTable.txt is a 180 x 88 data table.
   + Specifies the mean measurements of 30 different subjects performing 6 different activities.
   + 86 different measurements have been averaged
