@@ -88,4 +88,4 @@ FinalTable <- summarise(FinalData, (across(columnsToAverage[3:88], mean)))
 
 ## Writes the final output table
 
-write.table(FinalTable, file = "./FinalTable.csv", sep = ",")
+write.table(FinalTable, file = "./FinalTable.txt", row.names = FALSE)
