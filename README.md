@@ -25,7 +25,5 @@ Leek's course assignment on Getting and Cleaning Data. Along with this README, t
   + Specifies the mean measurements of 30 different subjects performing 6 different activities.
   + 86 different variables have been averaged
   
-```{r, echo = FALSE}
-echo
-```
-
+4. **FinalVariables.txt** 
+Contains two lists; the first with the original variable descriptions and the second with the final variable descriptions.
