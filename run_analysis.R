@@ -12,6 +12,8 @@ date.downloaded <- date()
 install.packages("zip")
 library(zip)
 unzip("./data/HAR_dataset.zip", exdir = "./data")
+require("dplyr")
+library(dplyr)
 
 
 ## Load test data
@@ -85,6 +87,7 @@ FinalData <- arrange(selected_data, Subject, Activity)
 FinalData <- group_by(FinalData, Subject, Activity)
 columnsToAverage <- colnames(FinalData)
 FinalTable <- summarise(FinalData, (across(columnsToAverage[3:88], mean)))
+FinalTable <- arrange(FinalTable, Activity, Subject)
 
 ## Writes the final output table
 
